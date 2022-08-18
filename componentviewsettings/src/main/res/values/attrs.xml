@@ -1,0 +1,12 @@
+<resources>
+
+    <declare-styleable name="SettingView">
+        <attr name="settingTitle" format="string" />
+        <attr name="settingSubTitle" format="string" />
+        <attr name="settingDivider" format="boolean" />
+        <attr name="settingSwitchChecked" format="boolean" />
+        <attr name="settingIconDrawable" format="reference" />
+        <attr name="settingSwitchVisibility" format="boolean" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.pegasus.componentview.MainActivity">
+
+    <dev.pegasus.componentviewsettings.SettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:settingDivider="true"
+        app:settingIconDrawable="@drawable/ic_notifications"
+        app:settingSubTitle="@string/app_name"
+        app:settingSwitchVisibility="true"
+        app:settingTitle="@string/app_name" />
+
+    <dev.pegasus.componentviewsettings.SettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:settingDivider="true"
+        app:settingIconDrawable="@drawable/ic_notifications"
+        app:settingSubTitle="@string/app_name"
+        app:settingSwitchVisibility="true"
+        app:settingTitle="@string/app_name" />
+
+    <dev.pegasus.componentviewsettings.SettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:settingDivider="true"
+        app:settingIconDrawable="@drawable/ic_notifications"
+        app:settingSubTitle="@string/app_name"
+        app:settingSwitchVisibility="true"
+        app:settingTitle="@string/app_name" />
+
+    <dev.pegasus.componentviewsettings.SettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:settingDivider="true"
+        app:settingIconDrawable="@drawable/ic_notifications"
+        app:settingSubTitle="@string/app_name"
+        app:settingTitle="@string/app_name" />
+
+    <dev.pegasus.componentviewsettings.SettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:settingIconDrawable="@drawable/ic_notifications"
+        app:settingSubTitle="@string/app_name"
+        app:settingTitle="@string/app_name" />
+
+</LinearLayout>
